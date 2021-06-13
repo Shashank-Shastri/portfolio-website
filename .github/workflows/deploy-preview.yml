@@ -1,0 +1,33 @@
+name: Deploy Preview on PR
+
+on:
+    pull_request:
+        branches:
+            - master
+
+jobs:
+    build_and_preview:
+        if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout branch
+              uses: actions/checkout@v2
+
+            - name: Retrieve npm cache (if any)
+              uses: actions/cache@v2.1.6
+              with:
+                  path: ~/.npm
+                  key: npm-packages
+
+            - name: Install Dependencies
+              run: npm install
+
+            - name: Build files
+              run: npm run build
+
+            - name: Deploy Preview
+              uses: FirebaseExtended/action-hosting-deploy@v0
+              with:
+                  repoToken: '${{ secrets.GITHUB_TOKEN }}'
+                  firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_SITE_DD3A7 }}'
+                  projectId: portfolio-site-dd3a7
