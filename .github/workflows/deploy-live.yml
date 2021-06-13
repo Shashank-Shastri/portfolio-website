@@ -1,7 +1,7 @@
-name: Deploy Preview on PR
+name: Deploy to Firebase Hosting on merge
 
 on:
-    pull_request:
+    push:
         branches:
             - master
 
@@ -22,9 +22,10 @@ jobs:
             - name: Install Dependencies
               run: npm install
 
-            - name: Deploy Preview
+            - name: Deploy Site
               uses: FirebaseExtended/action-hosting-deploy@v0
               with:
                   repoToken: '${{ secrets.GITHUB_TOKEN }}'
                   firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_SITE_DD3A7 }}'
+                  channelId: live
                   projectId: portfolio-site-dd3a7
