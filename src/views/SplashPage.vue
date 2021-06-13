@@ -21,7 +21,6 @@ export default {
             const { hostname: referrer } = this.referrer
                 ? new URL(this.referrer)
                 : {};
-            console.debug(referrer);
             return curatedContent[referrer] ?? curatedContent.default;
         },
     },
