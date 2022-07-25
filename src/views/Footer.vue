@@ -32,7 +32,7 @@ export default {
             socialLinks: [
                 {
                     icon: 'fas fa-envelope',
-                    link: 'mailto:shashank@shashanks.ga',
+                    link: 'mailto:shashank.m.shastri@gmail.com',
                     name: 'Email',
                 },
                 {

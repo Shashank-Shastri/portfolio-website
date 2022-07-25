@@ -44,19 +44,18 @@ export default {
                     caption:
                         'Real-time water level monitoring for my apartment.',
                     id: 'water_level',
-                    link: 'https://water-level.shashanks.ga/',
+                    link: 'https://water-level.shashanks.ml/',
                     name: 'Water Level Monitoring',
                 },
                 {
                     caption: 'My personal Home Automation System.',
                     id: 'home_automation',
-                    link: 'https://shashanks.ga/',
                     name: 'Home Automation System',
                 },
                 {
                     caption: 'Recommends movies based on selected movie.',
                     id: 'movie_recommendation',
-                    link: 'https://movie-recommendation.shashanks.ga/',
+                    link: 'https://movie-recommendation.shashanks.ml/',
                     name: 'Movie Recommendation System',
                 },
             ],
