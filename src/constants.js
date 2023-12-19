@@ -11,7 +11,7 @@ export const curatedContent = {
             'Since you viewed my linkedin profile, you already know much about me. Let me help you find more relevant details. Click on the button below.',
         focusSection: '#stats',
     },
-    'shashanks.ml': {
+    'techieshank.com': {
         splashHeader: 'Hello there!',
         splashMessage:
             'Since you visited one of my site, check out some of my other projects as well, by clicking the button below.',
