@@ -44,7 +44,7 @@ export default {
                     caption:
                         'Real-time water level monitoring for my apartment.',
                     id: 'water_level',
-                    link: 'https://water-level.shashanks.ml/',
+                    link: 'https://water-level.techieshank.com/',
                     name: 'Water Level Monitoring',
                 },
                 {
@@ -55,7 +55,7 @@ export default {
                 {
                     caption: 'Recommends movies based on selected movie.',
                     id: 'movie_recommendation',
-                    link: 'https://movie-recommendation.shashanks.ml/',
+                    link: 'https://movie-recommendation.techieshank.com/',
                     name: 'Movie Recommendation System',
                 },
             ],
