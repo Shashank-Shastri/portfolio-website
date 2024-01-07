@@ -16,16 +16,18 @@
                         technological solutions. My expertise lies in JavaScript
                         and Vue.js for front-end development, coupled with a
                         strong foundation in Python, Django, and Node.js for
-                        robust back-end solutions. I hold a Bachelor's degree in
-                        Computer Engineering from the University of Mumbai,
-                        where I cultivated the theoretical knowledge
-                        complementing my practical experience in the field. I am
-                        passionate about leveraging technology to solve
-                        real-world challenges and am open to collaboration and
-                        networking opportunities in the dynamic world of
-                        software development. Let's connect and explore how we
-                        can collaborate to drive innovation and efficiency in
-                        the tech space!
+                        robust back-end solutions.
+                    </p>
+                    <p class="lead mb-5">
+                        I hold a Bachelor's degree in Computer Engineering from
+                        the University of Mumbai, where I cultivated the
+                        theoretical knowledge complementing my practical
+                        experience in the field. I am passionate about
+                        leveraging technology to solve real-world challenges and
+                        am open to collaboration and networking opportunities in
+                        the dynamic world of software development. Let's connect
+                        and explore how we can collaborate to drive innovation
+                        and efficiency in the tech space!
                     </p>
                 </div>
             </div>
